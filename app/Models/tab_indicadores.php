@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class tab_datos_empresa extends Model
+class tab_indicadores extends Model
 {
     use HasFactory;
     protected $fillable = [
@@ -30,5 +30,4 @@ class tab_datos_empresa extends Model
         'updated_at'
 
 ];
-
 }
