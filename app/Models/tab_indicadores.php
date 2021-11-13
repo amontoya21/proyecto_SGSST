@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class tab_indicadores extends Model
 {
     use HasFactory;
+    //variables protegidas
+    protected $table ='tab_indicadores';
     protected $fillable = [
         'id',
         'razon_social',

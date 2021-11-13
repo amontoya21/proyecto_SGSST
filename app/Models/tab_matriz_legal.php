@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class tab_matriz_legal extends Model
 {
     use HasFactory;
+    //variables protegidas
+    protected $table ='tab_matriz_legals';
     protected $fillable = [
         'id',
         'tipo',

@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class tab_control_cambios extends Model
 {
     use HasFactory;
+      //variables protegidas
+      protected $table ='tab_control_cambios';
     protected $fillable = [
         'id',
         'fecha_mod',
