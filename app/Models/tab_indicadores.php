@@ -28,5 +28,8 @@ class tab_indicadores extends Model
         'created_at',
         'updated_at'
 
+
+
+
 ];
 }
